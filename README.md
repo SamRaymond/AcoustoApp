@@ -1,5 +1,6 @@
 # Acousto - Final Project: 6.336 - Intro. to Numerical Simulation
 ### A simulation tool for acoustofluidic devices, built with MATLAB.
+[![Watch the video]()](https://youtu.be/2bF6SgA_hUg)
 
 ## Installation:
 - Double click the Acousto.mlappinstall
