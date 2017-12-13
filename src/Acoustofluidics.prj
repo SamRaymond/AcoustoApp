@@ -1,0 +1,91 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\sjr\Desktop\PhD\Class_6.336_IntroNumSim\Project_6336\Code Nov 27\Acoustofluidics.prj" location="C:\Users\sjr\Desktop\PhD\Class_6.336_IntroNumSim\Project_6336\Code Nov 27" name="Acoustofluidics" target="target.mlapps" target-name="Package App">
+    <param.appname>Acoustofluidics</param.appname>
+    <param.authnamewatermark>Sam Raymond</param.authnamewatermark>
+    <param.email>sjr@mit.edu</param.email>
+    <param.company>MIT</param.company>
+    <param.icon>${PROJECT_ROOT}\Acoustofluidics_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Acoustofluidics_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Acoustofluidics_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Acoustofluidics_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>A simple acoustofluidic simulation engine.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\sjr\Desktop\PhD\Class_6.336_IntroNumSim\Project_6336\Code Nov 27</param.output>
+    <param.guid>adcb3a29-7372-47c3-a43e-6e9b356dd495</param.guid>
+    <unset>
+      <param.description />
+      <param.screenshot />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main />
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\sjr\Desktop\PhD\Class_6.336_IntroNumSim\Project_6336" name="Code Nov 27" optional="false">C:\Users\sjr\Desktop\PhD\Class_6.336_IntroNumSim\Project_6336\Code Nov 27</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,114 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3468693632" file="C:\Users\sjr\Desktop\Code &amp; App Dec 3\Acousto.prj" location="C:\Users\sjr\Desktop\Code &amp; App Dec 3" name="Acousto" target="target.mlapps" target-name="Package App">
+    <param.appname>Acousto</param.appname>
+    <param.authnamewatermark>Sam R. &amp; Maryam A.</param.authnamewatermark>
+    <param.email>sjr@mit.edu</param.email>
+    <param.company>Acousto</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A simulation tool for acoustofluidic devices, built with MATLAB.</param.summary>
+    <param.description>Usage
+
+&lt;ul&gt;
+&lt;li&gt;Select one of the predefined cases&lt;/li&gt;
+&lt;li&gt;Generate the particles&lt;/li&gt;
+&lt;li&gt;Choose a time integration scheme&lt;/li&gt;
+&lt;li&gt;Click Simulate&lt;/li&gt;
+&lt;li&gt;Reset to run a new model&lt;/li&gt;</param.description>
+    <param.screenshot>${PROJECT_ROOT}\AcoustoLogo.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\sjr\Desktop\Code &amp; App Dec 3</param.output>
+    <param.guid>73b8e0cb-65ae-49db-85ad-08ec054c28d0</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\main.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\acoustofluidicGUI.fig</file>
+      <file>${PROJECT_ROOT}\acoustofluidicGUI.m</file>
+      <file>${PROJECT_ROOT}\calculateAcousticForces.m</file>
+      <file>${PROJECT_ROOT}\calculateParticleAcceleration.m</file>
+      <file>${PROJECT_ROOT}\calculatePressureField.m</file>
+      <file>${PROJECT_ROOT}\classedit1.PNG</file>
+      <file>${PROJECT_ROOT}\initializeNodes.m</file>
+      <file>${PROJECT_ROOT}\initializeParticles.m</file>
+      <file>${PROJECT_ROOT}\plot6336Field.m</file>
+      <file>${PROJECT_ROOT}\plotAcousticField.m</file>
+      <file>${PROJECT_ROOT}\runSimulation.m</file>
+      <file>${PROJECT_ROOT}\setSimulationParameters.m</file>
+      <file>${PROJECT_ROOT}\shape.m</file>
+      <file>${PROJECT_ROOT}\tgcr.m</file>
+      <file>${PROJECT_ROOT}\updateParticlePositions.m</file>
+      <file>${PROJECT_ROOT}\updateParticleVelocities.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\sjr\Desktop" name="Code &amp; App Dec 3" optional="false">C:\Users\sjr\Desktop\Code &amp; App Dec 3</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
