@@ -11,11 +11,11 @@ rho = parameters.rho;
 c = parameters.cspeed;
 for n = ny+1:numNodes-ny
     if(parameters.specialField)
-   Fy(n) =  50-((nodes(n-1,6))^2 -(nodes(n+1,6)^2))/ 2*dy;
-   Fx(n) =  50-((nodes(n-1,6))^2 - (nodes(n+1,6)^2))/ 2*dx;
+   Fy(n) =  200-50*((nodes(n-1,6))^2 -(nodes(n+1,6)^2))/ 2*dy;
+   Fx(n) =  200-50*((nodes(n-1,6))^2 - (nodes(n+1,6)^2))/ 2*dx;
     else
            Fy(n) =  -(1/(2*rho*c^2))* (nodes(n-1,6)^2 - nodes(n+1,6)^2)/ 2*dy;
-           Fx(n) =  -(1/(2*rho*c^2))* (nodes(n-1,6)^2 - nodes(n+1,6)^2)/ 2*dx;
+           Fx(n) =  -(1/(2*rho*c^2))* (nodes(n-ny,6)^2 - nodes(n+ny,6)^2)/ 2*dx;
     end
 end
 % Left boundary 

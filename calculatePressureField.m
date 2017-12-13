@@ -124,7 +124,7 @@ switch parameters.PPESolver
 end
 
 
-P = P./(dx*dy);
+P = 0.1*P./(dx*dy);
 
 
 end
